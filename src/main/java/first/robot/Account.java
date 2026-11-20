@@ -43,8 +43,7 @@ public class Account {
         int index = initialName.indexOf("-");
 
         while(index != -1){
-            initialName = initialName.substring(0,index-1);
-
+            initialName = initialName.substring(0,index-1) + initialName.substring(index+1);
             index = initialName.indexOf("-");
         }
 
