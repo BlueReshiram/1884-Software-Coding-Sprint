@@ -10,7 +10,17 @@ public class Account {
      * as described in part (a).
      */
     public Account(String requestedName) {
+        int counter = 1;
+        if (isAvailable(requestedName)){
+            this.username = requestedName;
+        }
+        else {
+            while (!isAvailable(requestedName + counter)) {
+                counter++;
+            }
 
+            this.username = requestedName + counter;
+        }
     }
 
     /**
@@ -29,6 +39,15 @@ public class Account {
      * Postcondition: username is unchanged.
      */
     public String getShortenedName() {
+        String initialName = this.username;
+        int index = initialName.indexOf("-");
 
+        while(index != -1){
+            initialName = initialName.substring(0,index-1);
+
+            index = initialName.indexOf("-");
+        }
+
+        return initialName;
     }
 }
