@@ -17,3 +17,16 @@
 and the structure of [RobotSwerveDriveSimplified.java](./src/main/java/first/robot/subsystems/RobotSwerveDriveSimplified.java)***
 
 90 Minutes Total / Took me 34 Minutes
+
+[Scoring Guidelines (AP CSA FRQ)](https://apcentral.collegeboard.org/media/pdf/ap26-sg-computer-science-a.pdf)
+
+Scoring Guidelines (WPILIB FRQ):
+- 1 point for correctly using the this() keyword in the no-args constructor
+- 1 point for assigning initalPose to robotPosition in the args constructor
+- 1 point for assigning initialRotation to robotRotation in the args constructor
+- 1 point for updating the robotPosition correctly in moveRobotLinearly
+- 1 point for updating the robotRotation correctly in rotateRobot
+- 1 point for calculating the correct robot rotation in returnCombinedPosition()
+- 1 point for returning a value of type Pose2d in returnedCombinedPosition
+  - Sub Point (1 point) for returning the correct Pose2d value
+- 1 point for calculating the combinedPosition without modifying robotRotation and RobotPosition 
