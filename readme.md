@@ -18,7 +18,7 @@ and the structure of [RobotSwerveDriveSimplified.java](./src/main/java/first/rob
 
 90 Minutes Total / Took me 34 Minutes
 
-[Scoring Guidelines (AP CSA FRQ)](https://apcentral.collegeboard.org/media/pdf/ap26-sg-computer-science-a.pdf)
+[Scoring Guidelines APCSA FRQ](https://drive.google.com/file/d/15_7hzkLsjyN3jT8dAecE0gTi7dwoARMn/view?usp=drive_link)
 
 Scoring Guidelines (WPILIB FRQ):
 - 1 point for correctly using the this() keyword in the no-args constructor
