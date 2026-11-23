@@ -1,7 +1,6 @@
 package first.robot;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Account {
 
@@ -47,6 +46,7 @@ public class Account {
         int index = 0;
         while (index < username.length()) {
             name.add(Character.toString(username.charAt(index)));
+            index++;
         }
 
         index = 0;
@@ -59,10 +59,6 @@ public class Account {
             index++;
         }
 
-        return name.toString()
-        .replaceAll("[", "")
-        .replaceAll("]", "")
-        .replaceAll("-","")
-        .replaceAll(",", "");
+        return String.join("", name).replaceAll("-", "");
     }
 }
