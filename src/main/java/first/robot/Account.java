@@ -59,6 +59,10 @@ public class Account {
             index++;
         }
 
-        return name.toString().replaceAll("-","");
+        return name.toString()
+        .replaceAll("[", "")
+        .replaceAll("]", "")
+        .replaceAll("-","")
+        .replaceAll(",", "");
     }
 }
