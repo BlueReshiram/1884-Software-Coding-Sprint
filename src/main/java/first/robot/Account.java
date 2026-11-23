@@ -19,7 +19,7 @@ public class Account {
            username = requestedName;
         } else {
             int num = 1;
-            while (isAvailable(requestedName + num)) {
+            while (!isAvailable(requestedName + num)) {
                 num++;
             }
             username = requestedName + num;

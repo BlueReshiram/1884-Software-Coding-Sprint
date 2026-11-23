@@ -1,8 +1,8 @@
 package first.robot;
 
 public class Bottle {
-    double capacity = Double.NaN;
-    double liquid = Double.NaN;
+    private double capacity = Double.NaN;
+    private double liquid = Double.NaN;
     public Bottle(double capacity) {
         this.capacity = capacity;
         this.liquid = capacity;
