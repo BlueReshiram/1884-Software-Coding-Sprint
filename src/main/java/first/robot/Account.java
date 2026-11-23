@@ -59,6 +59,6 @@ public class Account {
             index++;
         }
 
-        return name.toString();
+        return name.toString().replaceAll("-","");
     }
 }
